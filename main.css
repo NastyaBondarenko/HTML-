@@ -1,0 +1,105 @@
+p{
+   width:100px ;
+ color: black;
+display: flex;
+font-style: italic; 
+text-align: justify;
+text-indent: 30px;
+width:940px;
+height:55px ;
+font-size: 20px;
+margin-left: 6%; 
+text-align: center;
+text-decoration: none;
+margin: 0;
+padding-top: 16px; 
+line-height: 35px; 
+}
+
+.content{
+   padding: 5px 50px 100px 300px;
+background: white;
+  display: flex;
+   align-items:flex-end;
+
+}
+.text{
+   padding: 5px 100px 10px 10px;
+   height:270px;
+   color: black;
+   background-image: URL(file:///E:/%D0%A0%D0%BE%D0%B1%D0%BE%D1%87%D0%B0%202021/Java/html/pictures/green.jpg);
+   justify-content :right;
+   text-align: justify; 
+
+}
+.heading{
+
+   padding: 5px 100px 10px 600px;
+   height: 350px;
+   color: black;
+   display: flex;
+   align-items:flex-end;
+}
+.entry{
+   padding: 0px 0px 2px 250px;
+   color: black;
+ 
+}
+  ul {
+    list-style-image: url(file:///E:/%D0%A0%D0%BE%D0%B1%D0%BE%D1%87%D0%B0%202021/Java/html/pictures/marker.png); 
+      padding: 0px 0px 0px 350px;
+
+   }
+   .picture{
+       width: 30;
+      border-color: black;
+   border-width: 1px;
+   border-style: solid;
+   border-radius:1px;
+   }
+ 
+
+.block1{
+   display: flex;
+   justify-content :center;
+}
+.container{
+    display: flex;
+   justify-content :flex-end;
+   padding: 0px 0px 0px 40px;
+   align-items:flex-start;
+}
+.form{
+   font-style: normal;
+      display: block;
+      padding: 10px 0px 0px 550px;
+}
+.a{
+   color: green;
+}
+.picture1{
+   width: 450px;
+   height: 250px;
+   border-color: black;
+   border-width: 1px;
+   border-style: solid;
+   border-radius:1px;
+}
+.picture2{
+   width: 400px;
+   height: 270px;
+   border-color: black;
+   border-width: 1px;
+   border-style: solid;
+   border-radius:1px;
+}
+.t{
+   width: 100px;
+   height: 38px;
+}
+.line{
+   width: 160px;
+   height: 32px;
+}
+
+}

@@ -1,0 +1,206 @@
+* {
+   transition:all .5s;
+   box-sizing: border-box;
+}
+body {
+   font: 1em 'PT Sans', Arial, Heltvetica, sans-serif;
+   color: black;
+   background: url(https://w7.pngwing.com/pngs/360/33/png-transparent-modern-minimalist-triangle-violet-background-shading-geometry-shading-violet.png);
+background-size: 1700px 1500px;
+}
+
+
+
+
+.container {
+   width: 940px;
+   margin: 0 auto;
+   padding: 10px 0 0 0;
+}
+
+.row{
+   margin-bottom: 20px;
+
+}
+
+.row:after {
+   display: block;
+   content: :' ';
+   height: 0;
+   visibility: hidden;
+   clear: both;
+}
+
+[class*="span"]{
+   float: left;
+   display: inline;
+   margin-right: 20px;
+}
+
+[class*="span"]:last-child{
+   margin-right: 0;
+   float: right;
+}
+
+.span1{width:  60px}
+.span2{width:  200px; height: 70px;}
+.span3{width:  220px;}
+.span4{width:  300px}
+.span5{width:  380px}
+.span6{width:  460px}
+.span7{width:  540px}
+.span8{width:  620px}
+.span9{width:  700px}
+.span10{width: 780px}
+.span11{width: 860px}
+.span12{width: 780px}
+
+
+.offset1{width:  60px}
+.offset2{width:  140px}
+.offset3{width:  220px}
+.offset4{width:  300px}
+.offset5{width:  380px}
+.offset6{width:  460px}
+.offset7{width:  540px}
+.offset8{width:  620px}
+.offset9{width:  700px}
+.offset10{width: 780px}
+.offset11{width: 860px}
+.offset12{width: 860px}
+
+.header {
+   margin-top: 20px;
+}
+
+.header h1 {
+   font-weight: bold;
+}
+
+.search {
+   margin-top: 40px;
+}
+
+
+.slider {
+   height: 460px;
+   border-color: black;
+   border-width: 1px;
+   border-style: solid;
+   border-radius:1px;
+   background: url(file:///E:/%D0%A0%D0%BE%D0%B1%D0%BE%D1%87%D0%B0%202021/Java/html/pictures/109.png);
+
+}
+
+.sidebar {
+   padding-top: 30px;
+   padding: 30px 0 0 50px;
+}
+
+.sidebar nav ul {
+   padding: 0;
+   margin: 0;
+   list-style: none;
+}
+
+.sidebar nav ul li a {
+   color: black;
+   background: url(https://st.depositphotos.com/1813957/3133/i/600/depositphotos_31337757-stock-photo-grunge-vintage-turquoise-background.jpg);
+   display: block;
+   width: 200px;
+   height: 40px;
+   text-align: center;
+   line-height: 40px;
+   margin-bottom: 4px;
+   border-width: 0px;
+   border-style: solid;
+   border-radius:5px;
+}
+
+.sidebar nav ul li a:hover {
+   background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPqXbHhO0kcSmk51sI-GWnKoBuA3fpteGGxqt8zcxRbIKwxqSnkBw3D5oK09-s-TdgCkQ&usqp=CAU);
+
+}
+
+
+.content {
+   padding: 0 20px;
+   margin-bottom: 80px;
+}
+
+.sidebar span2{
+      padding: 0px 20px 100px 100px;
+}
+
+.footer {
+   color: violet;
+   text-align: center;
+   border-top: 1px dashed blue;
+   padding: 40px 0;
+}
+
+h2{
+   padding: 0px 0px 0px 250px;
+}
+h1{
+   padding:0px 0px 0px 800px;
+}
+.t{
+      padding:0px 0px 0px 800px;
+
+}
+
+h1{
+padding:0px 0 0 600px;
+color: black;
+}
+
+   .poll{
+    border: 1px solid grey;
+    padding: 5px;
+    width: 200px;
+    color:black ;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 939px) {
+   .container{
+      width: 300px;
+   }
+   .span1,
+.span2,
+.span3,
+.span4,
+.span5,
+.span6,
+.span7,
+.span8,
+.span9,
+.span10,
+.span11,
+.span12{width: 300px}
+
+.sidebar, .thumb {
+   display: none;
+}
+
+.slider{
+   height: 150px;
+   background: grey;
+}
+
+
+
